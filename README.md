@@ -22,3 +22,10 @@ Aggiungere la visualizzazione di tutte le thumbnails sulla destra dell’immagin
 ### Steps
 
 ### Tools
+
+- const / let
+- for
+- array
+- if / else if / else
+- break
+- markup
