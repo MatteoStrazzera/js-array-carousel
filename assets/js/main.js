@@ -18,6 +18,8 @@ const nextControl = document.querySelector('.next');
 
 console.log(prevControl, nextControl);
 
+let activeImg = 0;
+
 // creiamo un ciclo (for) per ciclare tra le immagini
 
 for (let i = 0; i < imgList.length; i++) {
@@ -25,4 +27,12 @@ for (let i = 0; i < imgList.length; i++) {
 
     console.log(imgSlide);
     
+    // inseriamo le immagini nel documento html
+    let markupImg = `<img class=" ${i === activeImg ? 'active' : ''}" src="./assets/img/${imgSlide}" alt="">`;
+
+    console.log(markupImg);
+
+    slidesContainer.insertAdjacentHTML('beforeend', markupImg);
 }
+
+// endiamo i controlli 'attivi' (eventlistener) che permettano di cambiare l'immagine sia avanti che indietro
