@@ -1,0 +1,12 @@
+body{
+    height: 100vh;
+}
+.slider{
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+
+    & img{
+        max-width: 100%;
+    }
+}

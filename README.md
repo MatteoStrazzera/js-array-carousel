@@ -21,6 +21,13 @@ Aggiungere la visualizzazione di tutte le thumbnails sulla destra dell’immagin
 
 ### Steps
 
+- creiamo la struttura del conteiner delle slide e dei controlli in html
+- creiamo una lista (array) con le immagini in js
+- creiamo le varie variabili per i controlli, per il conteiner 'slides'
+- creiamo un ciclo (for) per ciclare tra le immagini
+- rendiamo i controlli 'attivi' (eventlistener) che permettano di cambiare l'immagine sia avanti che indietro
+
+
 ### Tools
 
 - const / let
